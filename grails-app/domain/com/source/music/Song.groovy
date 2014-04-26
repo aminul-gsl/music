@@ -8,6 +8,8 @@ class Song {
     String movie
     String singer
     float length
+    String logoName
+    int releaseOn
     String category    //eg bangla, english
    // static belongsTo = [album:Album]
     static constraints = {
