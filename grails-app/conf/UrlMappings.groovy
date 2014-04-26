@@ -6,7 +6,7 @@ class UrlMappings {
                 // apply constraints here
             }
         }
-
+//        "/song/search/$searchValue"(controller: "song", action: "search")
         "/"(view:"/index")
         "500"(view:'/error')
 	}
